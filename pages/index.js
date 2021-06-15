@@ -1,9 +1,11 @@
 import React from "react";
+import Nabvar from "../components/navbar/Nabvar";
 
 const Home = () => {
   return (
     <div>
-      <h1>Hola mundo!</h1>
+      <Nabvar />
+      <h1>Empezando con NextJS</h1>
     </div>
   );
 };
